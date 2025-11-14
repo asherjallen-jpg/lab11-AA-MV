@@ -23,11 +23,6 @@ def sub(a, b):
 def mul(a, b):
     return a * b
 
-def div(a, b):
-    if a == 0:
-        raise ZeroDivisionError("Cannot divide by zero")
-    return b / a
-
 def log(a, b):
     if a <= 1:
         raise ValueError("Log base cannot be less than 2")
