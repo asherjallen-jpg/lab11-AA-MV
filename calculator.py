@@ -6,6 +6,14 @@ One function per operation, in order.
 """
 import math
 # First example
+def square_root(a):
+    if a < 0:
+        raise ValueError("Cannot square-root negatives")
+    return math.sqrt(a)
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
+
 def add(a, b): 
     return a + b
 
