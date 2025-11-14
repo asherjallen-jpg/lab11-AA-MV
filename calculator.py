@@ -38,7 +38,9 @@ def log(a, b):
 def exp(a, b):
     return a ** b
 
-import math
+#Asher   /\
+#Mariana \/
+
 def add (a,b): 
     return a+b
 
