@@ -36,7 +36,7 @@ def mul(a,b):
 def div(a,b):
     if  b ==0:
         raise ZeroDivisionError ("Cannot divide by zero")
-    return b / a
+    return a / b
 
 def exp (a,b):
     return a**b
