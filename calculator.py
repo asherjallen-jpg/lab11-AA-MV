@@ -17,7 +17,7 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def log(a, b):
+def logarithm(a, b):
     if a <= 1:
         raise ValueError("Log base cannot be less than 2")
     if b < 1:
@@ -27,7 +27,7 @@ def log(a, b):
 #Asher   /\
 #Mariana \/
 
-def sub(a,b):
+def subtract(a,b):
     return a - b
 
 def mul(a,b):
