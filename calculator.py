@@ -1,4 +1,10 @@
+#https://github.com/asherjallen-jpg/lab11-AA-MV.git
+#Partner 1: Asher Allen
+#Partner 2: Mariana Velasco
+
+
 """
+
 calculator.py
 - Defines functions used to create a simple calculator
 
