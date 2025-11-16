@@ -49,17 +49,17 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_logarithm(self): # 3 assertions
-        a,b=8,2
+        a,b=2,8
         self.assertEqual(log(a,b),3)
 
-        m,n=100,10
+        m,n=10,100
         self.assertTrue(log(m,n)==2)
 
-        x,y=1,5
+        x,y=5,1
         self.assertFalse(log(x,y)==8)
 
     def test_log_invalid_base(self): # 1 assertion
-        vals =(10,1)#     # use same technique from test_divide_by_zero
+        vals =(0,10)#     # use same technique from test_divide_by_zero
         with self.assertRaises(ValueError):
             log(*vals)
     
